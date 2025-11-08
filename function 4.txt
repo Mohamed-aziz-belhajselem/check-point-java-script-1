@@ -1,0 +1,7 @@
+function getAbsSum(arr) {var sum=0
+    
+for ( var i=0; arr.length>i; i++){
+if ( arr[i]<0){
+  sum = sum + (-1 * arr[i])}
+  else{
+    sum=sum+arr[i]
